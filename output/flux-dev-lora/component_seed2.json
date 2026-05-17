@@ -1,0 +1,26 @@
+{
+  "model_slug": "fal-ai/flux-lora",
+  "provider": "fal.ai",
+  "loras": [
+    {
+      "path": "https://huggingface.co/gokaygokay/Flux-Engrave-LoRA/resolve/main/engrave.safetensors",
+      "scale": 0.85
+    }
+  ],
+  "trigger_prefix": "NGRVNG engrave, ",
+  "genre": "component",
+  "seed_label": "seed2",
+  "prompt": "NGRVNG engrave, A laid-out specimen plate of the three condiment components served alongside Xiao Long Bao: a small ceramic dish of julienned ginger threads, a small dish of dark Zhenjiang black vinegar with a porcelain spoon, and an empty round bamboo steamer disk; the three objects arranged in a triangular composition like separate botanical specimens on the same plate. Rendered as a 1890s botanical specimen plate by Pierre-Joseph Redouté. hand-drawn ink line engraving with minimal watercolor wash. cream-colored aged paper, muted ochre / sepia / olive green tones. Three separate components arranged in a balanced triangular layout on the page, each rendered as if it were an individual specimen, no overlapping; ample negative space between items. no text, no labels, no typography, no captions, no annotations.",
+  "params": {
+    "image_size": "square_hd",
+    "num_inference_steps": 28,
+    "guidance_scale": 3.5
+  },
+  "price_usd_est": 0.0368,
+  "latency_s": 16.36,
+  "image_url": "https://v3b.fal.media/files/b/0a9a8591/vb4M5WHMfsTm9tAQJt_xW_c30757461cad436ab1bd1b6cb1cf4c04.jpg",
+  "png_path": "model-selection-probe/output/flux-dev-lora/component_seed2.png",
+  "bytes": 129330,
+  "response_seed": 6102168717603190560,
+  "substitution_note": "Botanica LoRA omitted: Civitai download endpoint returns 401 without API token. Single Engrave LoRA covers the engraving anchor; Redoute/botanical style relies on prompt."
+}

@@ -1,0 +1,26 @@
+{
+  "model_slug": "fal-ai/flux-lora",
+  "provider": "fal.ai",
+  "loras": [
+    {
+      "path": "https://huggingface.co/gokaygokay/Flux-Engrave-LoRA/resolve/main/engrave.safetensors",
+      "scale": 0.85
+    }
+  ],
+  "trigger_prefix": "NGRVNG engrave, ",
+  "genre": "ingredient",
+  "seed_label": "seed1",
+  "prompt": "NGRVNG engrave, A laid-out specimen plate of the three raw ingredients that make Xiao Long Bao: a small mound of fine white wheat flour, a portion of fresh ground pork showing its texture, and a small bundle of scallion stalks and ginger root with skin partially peeled; the three items arranged side by side like botanical specimens on the same plate. Rendered as a 1890s botanical specimen plate by Pierre-Joseph Redouté. hand-drawn ink line engraving with minimal watercolor wash. cream-colored aged paper, muted ochre / sepia / olive green tones. Three raw ingredients laid out in a horizontal specimen row on the page, each rendered as its own discrete object, no overlapping; ample negative space between items. no text, no labels, no typography, no captions, no annotations.",
+  "params": {
+    "image_size": "square_hd",
+    "num_inference_steps": 28,
+    "guidance_scale": 3.5
+  },
+  "price_usd_est": 0.0368,
+  "latency_s": 9.55,
+  "image_url": "https://v3b.fal.media/files/b/0a9a8592/NWa5hdf4K3L8ChcCsDrB0_41242553b1ca44fc80dc5340dc25416f.jpg",
+  "png_path": "model-selection-probe/output/flux-dev-lora/ingredient_seed1.png",
+  "bytes": 103828,
+  "response_seed": 13344234314596655061,
+  "substitution_note": "Botanica LoRA omitted: Civitai download endpoint returns 401 without API token. Single Engrave LoRA covers the engraving anchor; Redoute/botanical style relies on prompt."
+}

@@ -1,0 +1,16 @@
+{
+  "model_slug": "fal-ai/recraft/v4/text-to-image",
+  "provider": "fal.ai",
+  "genre": "component",
+  "seed_label": "seed1",
+  "prompt": "A laid-out specimen plate of the three condiment components served alongside Xiao Long Bao: a small ceramic dish of julienned ginger threads, a small dish of dark Zhenjiang black vinegar with a porcelain spoon, and an empty round bamboo steamer disk; the three objects arranged in a triangular composition like separate botanical specimens on the same plate. Rendered as a 1890s botanical specimen plate by Pierre-Joseph Redouté. hand-drawn ink line engraving with minimal watercolor wash. cream-colored aged paper, muted ochre / sepia / olive green tones. Three separate components arranged in a balanced triangular layout on the page, each rendered as if it were an individual specimen, no overlapping; ample negative space between items. no text, no labels, no typography, no captions, no annotations.",
+  "params": {
+    "image_size": "square_hd",
+    "style": "any"
+  },
+  "price_usd_est": 0.04,
+  "latency_s": 24.84,
+  "image_url": "https://v3b.fal.media/files/b/0a9a8571/Bp1AGRTWLQ3Y9CY-CEeGW_image.webp",
+  "png_path": "model-selection-probe/output/recraft-v4/component_seed1.png",
+  "bytes": 1340325
+}

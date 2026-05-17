@@ -1,0 +1,16 @@
+{
+  "model_slug": "fal-ai/recraft/v4/text-to-image",
+  "provider": "fal.ai",
+  "genre": "anatomy",
+  "seed_label": "seed2",
+  "prompt": "A single Xiao Long Bao sliced open along its vertical axis to reveal the internal anatomy: the pleated wheat-flour skin in cross-section showing dough thickness, the steaming pork-and-aspic filling at the core, and clear amber soup pooling at the bottom of the cavity; the dumpling rests on a small bamboo steamer disk visible in side profile. Rendered as a 1890s botanical specimen plate by Pierre-Joseph Redouté. hand-drawn ink line engraving with minimal watercolor wash. cream-colored aged paper, muted ochre / sepia / olive green tones. Single specimen centered on the page in three-quarter cutaway view, anatomical-illustration framing, plenty of negative space around the subject. no text, no labels, no typography, no captions, no annotations.",
+  "params": {
+    "image_size": "square_hd",
+    "style": "any"
+  },
+  "price_usd_est": 0.04,
+  "latency_s": 26.84,
+  "image_url": "https://v3b.fal.media/files/b/0a9a856e/mgu4T7-d11GJxaHif5Eoa_image.webp",
+  "png_path": "model-selection-probe/output/recraft-v4/anatomy_seed2.png",
+  "bytes": 1830216
+}

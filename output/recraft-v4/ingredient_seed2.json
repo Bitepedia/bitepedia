@@ -1,0 +1,16 @@
+{
+  "model_slug": "fal-ai/recraft/v4/text-to-image",
+  "provider": "fal.ai",
+  "genre": "ingredient",
+  "seed_label": "seed2",
+  "prompt": "A laid-out specimen plate of the three raw ingredients that make Xiao Long Bao: a small mound of fine white wheat flour, a portion of fresh ground pork showing its texture, and a small bundle of scallion stalks and ginger root with skin partially peeled; the three items arranged side by side like botanical specimens on the same plate. Rendered as a 1890s botanical specimen plate by Pierre-Joseph Redouté. hand-drawn ink line engraving with minimal watercolor wash. cream-colored aged paper, muted ochre / sepia / olive green tones. Three raw ingredients laid out in a horizontal specimen row on the page, each rendered as its own discrete object, no overlapping; ample negative space between items. no text, no labels, no typography, no captions, no annotations.",
+  "params": {
+    "image_size": "square_hd",
+    "style": "any"
+  },
+  "price_usd_est": 0.04,
+  "latency_s": 24.89,
+  "image_url": "https://v3b.fal.media/files/b/0a9a8579/-OG44uo6s0keqd6lzNEeu_image.webp",
+  "png_path": "model-selection-probe/output/recraft-v4/ingredient_seed2.png",
+  "bytes": 1522601
+}

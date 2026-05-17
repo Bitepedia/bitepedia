@@ -1,0 +1,36 @@
+{
+  "style_anchors": [
+    "1890s botanical specimen plate by Pierre-Joseph Redouté",
+    "hand-drawn ink line engraving with minimal watercolor wash",
+    "cream-colored aged paper, muted ochre / sepia / olive green tones",
+    "no text, no labels, no typography, no captions, no annotations"
+  ],
+  "dish": "Xiao Long Bao (Shanghai soup dumpling)",
+  "genres": {
+    "anatomy": {
+      "label": "Anatomy — Xiao Long Bao cross-section",
+      "subject_clause": "A single Xiao Long Bao sliced open along its vertical axis to reveal the internal anatomy: the pleated wheat-flour skin in cross-section showing dough thickness, the steaming pork-and-aspic filling at the core, and clear amber soup pooling at the bottom of the cavity; the dumpling rests on a small bamboo steamer disk visible in side profile.",
+      "composition_clause": "Single specimen centered on the page in three-quarter cutaway view, anatomical-illustration framing, plenty of negative space around the subject."
+    },
+    "component": {
+      "label": "Component — Xiao Long Bao dipping condiments set",
+      "subject_clause": "A laid-out specimen plate of the three condiment components served alongside Xiao Long Bao: a small ceramic dish of julienned ginger threads, a small dish of dark Zhenjiang black vinegar with a porcelain spoon, and an empty round bamboo steamer disk; the three objects arranged in a triangular composition like separate botanical specimens on the same plate.",
+      "composition_clause": "Three separate components arranged in a balanced triangular layout on the page, each rendered as if it were an individual specimen, no overlapping; ample negative space between items."
+    },
+    "ingredient": {
+      "label": "Ingredient — Xiao Long Bao raw ingredients",
+      "subject_clause": "A laid-out specimen plate of the three raw ingredients that make Xiao Long Bao: a small mound of fine white wheat flour, a portion of fresh ground pork showing its texture, and a small bundle of scallion stalks and ginger root with skin partially peeled; the three items arranged side by side like botanical specimens on the same plate.",
+      "composition_clause": "Three raw ingredients laid out in a horizontal specimen row on the page, each rendered as its own discrete object, no overlapping; ample negative space between items."
+    }
+  },
+  "prompt_template": "{subject_clause} Rendered as a {anchor_1}. {anchor_2}. {anchor_3}. {composition_clause} {anchor_4}.",
+  "negative_anchors": [
+    "no text",
+    "no labels",
+    "no typography",
+    "no captions",
+    "no annotations",
+    "no watermarks",
+    "no signatures"
+  ]
+}
